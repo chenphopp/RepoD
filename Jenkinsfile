@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout RepoA') {
             steps {
-                git url: 'https://github.com/chenphopp/grpc.git',
+                git url: 'https://github.com/chenphopp/RepoA.git',
                     branch: 'master',
                     credentialsId: 'github-pat'
             }
