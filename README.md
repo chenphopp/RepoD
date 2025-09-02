@@ -2,7 +2,7 @@
 Question
 
 ## 1. How did you test your pipelines?
-*I'm running pipeline with Jenkins installed in window with git and github plugin*
+`I'm running pipeline with Jenkins installed in window with git and github plugin`
 I tested the pipelines directly on my Jenkins instance:
 - For **PipelineB**: I confirmed that it cloned RepoA, generated the Doxygen config, produced HTML docs, and archived `doc.tar.gz`.
 <img width="1893" height="490" alt="image" src="https://github.com/user-attachments/assets/bf8acf0e-b7fe-45ef-a419-82b38c44c8f8" />
