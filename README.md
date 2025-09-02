@@ -27,12 +27,11 @@ I tested the pipelines directly on my Jenkins instance:
 ## 4. How to adjust this repository to support LFS?
 - Install Git LFS (git lfs install) : https://git-lfs.com/?utm_source=chatgpt.com
 - Tracking the large binary
-"""
+```
 git lfs track "*.tar.gz"
 git lfs track "*.zip"
 git lfs track "*.exe"
 git add .gitattributes
 git commit -m "Enable Git LFS for large binaries"
-
-"""
+```
 
