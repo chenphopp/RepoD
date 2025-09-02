@@ -16,3 +16,23 @@ I tested the pipelines directly on my Jenkins instance:
 - Verified that non-standard lines were ignored.
 - Confirmed that the output CSV contained the expected columns: Line, File, Message.
 
+<img width="1862" height="839" alt="image" src="https://github.com/user-attachments/assets/4be44070-259c-41fb-954f-5ee3243ceca1" />
+
+## 3. What is the advantage to use LFS?
+- Efficiently manages large binary files (e.g., .tar.gz, .zip, .exe).
+- Stores only a pointer in the Git repo, so the repo size stays small.
+- Faster clone/pull operations.
+- Developers download only the needed file versions.
+
+## 4. How to adjust this repository to support LFS?
+- Install Git LFS (git lfs install) : https://git-lfs.com/?utm_source=chatgpt.com
+- Tracking the large binary
+"""
+git lfs track "*.tar.gz"
+git lfs track "*.zip"
+git lfs track "*.exe"
+git add .gitattributes
+git commit -m "Enable Git LFS for large binaries"
+
+"""
+
