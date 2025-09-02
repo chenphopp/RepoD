@@ -1,4 +1,4 @@
-<img width="1884" height="661" alt="image" src="https://github.com/user-attachments/assets/dd3be212-e3da-4b00-8f14-43ebc30a678f" /># RepoD
+# RepoD
 Question
 
 ## 1. How did you test your pipelines?
