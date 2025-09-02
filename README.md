@@ -25,7 +25,7 @@ I tested the pipelines directly on my Jenkins instance:
 - Developers download only the needed file versions.
 
 ## 4. How to adjust this repository to support LFS?
-- Install Git LFS (git lfs install) : https://git-lfs.com/?utm_source=chatgpt.com
+- Install Git LFS (git lfs install) : https://git-lfs.com/
 - Tracking the large binary
 ```
 git lfs track "*.tar.gz"
