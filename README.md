@@ -23,7 +23,7 @@ HTML docs output
 <img width="1862" height="839" alt="image" src="https://github.com/user-attachments/assets/4be44070-259c-41fb-954f-5ee3243ceca1" />
 
 ## 3. What is the advantage to use LFS?
-- Efficiently manages large binary files (e.g., .tar.gz, .zip, .exe).
+- Efficiently manages large binary files (ex .tar.gz, .zip, .exe).
 - Stores only a pointer in the Git repo, so the repo size stays small.
 - Faster clone/pull operations.
 - Developers download only the needed file versions.
