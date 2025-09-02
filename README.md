@@ -7,6 +7,9 @@ I tested the pipelines directly on my Jenkins instance:
 - For **PipelineB**: I confirmed that it cloned RepoA, generated the Doxygen config, produced HTML docs, and archived `doc.tar.gz`.
 <img width="1893" height="490" alt="image" src="https://github.com/user-attachments/assets/bf8acf0e-b7fe-45ef-a419-82b38c44c8f8" />
 <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/f6b47d9b-31e1-485a-86fb-2d50da13d5f0" />
+
+HTML docs
+
 <img width="1909" height="993" alt="image" src="https://github.com/user-attachments/assets/eea3c25f-4b3a-46a7-888b-32557fba3d67" />
 
 - For **PipelineC**: I verified that Doxygen produced `warnings.log`, then RepoC’s parser script successfully generated `warnings.csv`. And archived in Jenkins artifacts.
