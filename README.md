@@ -26,7 +26,7 @@ I tested the pipelines directly on my Jenkins instance:
 
 ## 4. How to adjust this repository to support LFS?
 - Install Git LFS (git lfs install) : https://git-lfs.com/
-- Tracking the large binary
+- Tracking the large binary, commit and push
 ```
 git lfs track "*.tar.gz"
 git lfs track "*.zip"
