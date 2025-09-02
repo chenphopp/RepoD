@@ -31,11 +31,15 @@ I tested the pipelines directly on my Jenkins instance:
 git lfs track "*.tar.gz"
 git lfs track "*.zip"
 git lfs track "*.exe"
-
+```
+```
 git add .gitattributes
-
+```
+```
 git commit -m "Enable Git LFS for large binaries"
-
 git push origin main
 ```
+
+Alternatives:
+- Use Jenkins artifacts, Nexus, JFrog or Artifactory for binary storage instead of Git.
 
